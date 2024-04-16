@@ -1,0 +1,15 @@
+a {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+ }
+
+.bg-gradiant {
+    background: rgb(196, 53, 188);
+background: radial-gradient(circle, rgb(204, 47, 178) 0%, rgb(224, 110, 163) 39%, rgba(252,70,107,1) 100%);
+}
+
+
