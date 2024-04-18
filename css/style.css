@@ -8,8 +8,38 @@ a {
  }
 
 .bg-gradiant {
-    background: rgb(196, 53, 188);
-background: radial-gradient(circle, rgb(204, 47, 178) 0%, rgb(224, 110, 163) 39%, rgba(252,70,107,1) 100%);
+    background: rgb(204, 179, 203);
+background: radial-gradient(circle, rgb(223, 201, 219) 0%, rgb(241, 209, 224) 39%, rgba(252,70,107,1) 100%);
+}
+.shoes {
+    float: right;
 }
 
+.col {
+   float: right;
+}
+
+
+.body {
+    background: rgb(247, 219, 235); 
+}
+.navbar a {
+    position: relative;
+    font-size: 29px;
+    color: #c9178e;
+    text-decoration: none;
+    margin-left: 40px;
+    
+}
+.navbar a::before{
+    content: '' ;
+    position: absolute;
+    top: 100% ;
+    width: 0;
+    left: 0;
+    height:50px;
+    background: #94346c;
+    transition: .3s; }
+   
+  
 
